@@ -239,3 +239,18 @@ a:hover {
     padding: 25px 50px;
     color: #fefadc;
 }
+
+/* services section */
+#services-section {
+    flex-direction: column;
+}
+
+.services-cards {
+    background: #e5e1c6;
+}
+
+.card-title {
+    font-family: "playfair display", serif;
+    color: #6b8b8c;
+    margin-top: 0;
+}

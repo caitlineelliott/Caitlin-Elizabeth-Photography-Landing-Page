@@ -104,3 +104,11 @@ document.querySelectorAll('.top-btn').forEach(button => {
         scrollTo(homeSection);
     });
 });
+
+/**
+ * @description scrolls to contact section via home section button click
+ */
+document.querySelector('.landing-btn').addEventListener('click', () => {
+    const contactSection = document.querySelector("#contact-section");
+    scrollTo(contactSection);
+});

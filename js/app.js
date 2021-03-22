@@ -43,3 +43,17 @@ window.addEventListener('scroll', () => {
         }
     }, 555);
 });
+
+/**
+ * @description smooth scrolls to page sections on click
+ * @param {HTMLElement} section - page section to scroll to
+ */
+const scrollTo = section => {
+    const navHeight = 48;
+    window.scroll({ top: section.offsetTop - navHeight, left: 0, behavior: 'smooth' });
+};
+
+navContainer.addEventListener('click', (e) => {
+    let element = document.querySelector(`#${e.target.id}-section`);
+    scrollTo(element);
+});

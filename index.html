@@ -183,6 +183,58 @@
                 <button class="top-btn light-btn">back to top</button>
             </div>
         </section>
+
+        <!-- contact section -->
+        <section class="section-styles center-center contact-section nav-element" id="contact-section">
+            <h2 class="section-title">
+                contact
+            </h2>
+            <div class="contact-container">
+                <div class="contact-images-container center-center">
+                    <img id="contact-1" class="contact-images" src="./imgs/contact-1.jpg"
+                        alt="Jessica Robertson bridal photo">
+                    <img id="contact-2" class="contact-images" src="./imgs/contact.jpg"
+                        alt="Jessica Robertson bridal party photo">
+                </div>
+
+                <form class="contact-form center-center">
+                    <label for="your-name" class="hidden-labels">Your Name:</label>
+                    <input class="contact-inputs" type="text" placeholder="your name" id="your-name" required>
+
+                    <label for="partner name-name" class="hidden-labels">Your Partner's Name:</label>
+                    <input class="contact-inputs" type="text" placeholder="your partner's name" id="partner-name"
+                        required>
+
+                    <label for="email" class="hidden-labels">Your Email Address:</label>
+                    <input class="contact-inputs" type="text" placeholder="email" required>
+
+                    <p class="form-label">
+                        <label id="wedding-date" for="wedding-date">Wedding Date:</label>
+                    </p>
+                    <input class="contact-inputs contact-date" type="date" required>
+
+                    <p class="form-label">
+                        Services Desired (check all that apply):<br>
+                        <input id="engagement-service" type="checkbox"> <label
+                            for="engagement-service">Engagement</label>
+                        <input id="wedding-service" type="checkbox"> <label for="wedding-service">Wedding</label>
+                        <input id="elopment-service" type="checkbox"> <label for="elopment-service">Elopment</label>
+                    </p>
+                    <label for="couple-description" class="hidden-labels">Tell us about yourself and your
+                        partner:</label>
+                    <textarea id="couple-description" class="contact-inputs contact-textarea"
+                        placeholder="tell us about yourself and your partner" required></textarea>
+
+                    <label for="photo-needs" class="hidden-labels">What is most important to you about your wedding
+                        photos?</label>
+                    <textarea id="photo-needs" class="contact-inputs contact-textarea"
+                        placeholder="what is most important to you about your wedding photos?" required></textarea>
+
+                    <input class="contact-submit dark-btn" type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

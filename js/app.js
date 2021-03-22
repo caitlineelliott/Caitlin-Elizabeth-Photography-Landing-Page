@@ -22,3 +22,24 @@ window.addEventListener('load', (event) => {
         newLi.append(newLiText);
     }
 });
+
+/**
+ * @description styles nav and section active states
+ */
+
+window.addEventListener('scroll', () => {
+    setTimeout(() => {
+        for (let i = 1; i < pageSections.length; i++) {
+            let activeSection = pageSections[i].getBoundingClientRect();
+            if (activeSection.top <= 50 && activeSection.bottom >= 50) {
+                navContainer.children[i].classList.add('nav-chevron');
+                navContainer.children[i].firstChild.classList.add('active-nav');
+                pageSections[i].firstElementChild.classList.add("section-title-active");
+            } else {
+                navContainer.children[i].classList.remove('nav-chevron');
+                navContainer.children[i].firstChild.classList.remove('active-nav');
+                pageSections[i].firstElementChild.classList.remove("section-title-active");
+            }
+        }
+    }, 555);
+});

@@ -101,3 +101,75 @@ a:hover {
     transition: 500ms;
     border: 1px solid #a58781;
 }
+
+
+/* mobile & small scrren styles */
+
+/* removes tablet and desktop nav on mobile */
+.nav {
+    display:none;
+}
+
+/* mobile nav */
+.hamburger-icon {
+    display: block;
+    color: #b2a3b5;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.2em;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+}
+
+.hamburger-none {
+    display: none;
+}
+
+.mobile-nav {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background: #6b8b8c;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+
+.mobile-nav ul {
+    list-style: none;
+    padding-right: 60px;
+    float: right;
+    text-align: right;
+    color: #fefadc;
+    font-size: 10vw;
+}
+
+.mobile-nav a {
+    color: #fefadc;
+    font-weight: 300;
+}
+
+.mobile-nav a:hover {
+    cursor: pointer;
+    color: #b2a3b5;
+}
+
+.close-btn {
+    display: none;
+}
+
+.close-btn-active {
+    display: block;
+    color: #b2a3b5;;
+    font-size: 1.2em;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+
+.close-btn-active:hover {
+    cursor: pointer;
+}

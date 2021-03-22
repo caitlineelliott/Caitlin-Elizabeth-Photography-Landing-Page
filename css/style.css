@@ -173,3 +173,30 @@ a:hover {
 .close-btn-active:hover {
     cursor: pointer;
 }
+
+/* header section */
+.index-header {
+    height: 75vh;
+    background: url(../imgs/wedding-1.jpg) top/cover no-repeat;
+    border-bottom: 2px solid #7f534b;
+    flex-direction: column;
+}
+
+.header-title {
+    font: 4vw "playfair display", serif;
+    color: #fefadc;
+    text-align: center;
+}
+
+.header-blurb {
+    font-size: 0.9em;
+    color: #fefadc;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-btn {
+    width: 55%;
+}

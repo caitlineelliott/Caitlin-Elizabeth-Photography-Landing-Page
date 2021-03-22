@@ -227,3 +227,15 @@ a:hover {
 .about-text {
     width: 90%;
 }
+
+/* buffer section */
+.buffer-section {
+    height: 50vh;
+    background: url(../imgs/divider.jpeg) center/cover no-repeat fixed;
+}
+
+.quote {
+    font: italic 1.5em "playfair display", serif;
+    padding: 25px 50px;
+    color: #fefadc;
+}

@@ -320,3 +320,33 @@ a:hover {
 #contact-2 {
     display: none;
 }
+
+/* footer styles */
+.footer-styles {
+    background-color: #7f534b;
+    text-align: center;
+}
+
+.footer-styles h1 {
+    font: 2em "playfair display", serif;
+    text-align: center;
+    color: #fef9d7;
+    margin: 35px 0 20px 0;
+}
+
+.footer-social i {
+    color: #fef9d7;
+    font-size: 1.5em;
+    padding: 10px;
+    line-height: 3vh;
+}
+
+.footer-social i:hover {
+    color: #97829b;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.back-to-top {
+    margin: 20px 0;
+}

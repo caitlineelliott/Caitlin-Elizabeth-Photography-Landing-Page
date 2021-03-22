@@ -269,3 +269,54 @@ a:hover {
     color: #e5e1c6;
     font-family: "playfair display", serif;
 }
+
+/* contact container */
+#contact-section {
+    flex-direction: column;
+}
+
+.contact-container {
+    width: 90%;
+}
+
+.contact-images {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.contact-form {
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.contact-inputs {
+    width: 90%;
+    height: 1em;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font: italic 1em "playfair display", serif;
+    color: #7f534b;
+    background: #fef9d7;
+    border: 1px solid #7f534b;
+    border-radius: 5px;
+}
+
+.form-label {
+    text-align: center;
+}
+
+.hidden-labels {
+    display: none;
+}
+
+.contact-textarea {
+    height: 15vh;
+    overflow-y: auto;
+}
+
+#contact-2 {
+    display: none;
+}

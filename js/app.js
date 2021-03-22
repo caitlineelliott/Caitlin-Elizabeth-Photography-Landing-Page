@@ -94,3 +94,13 @@ const activeNav = () => {
 };
 
 hamIcon.addEventListener('click', activeNav);
+
+/**
+ * @description scrolls to top of landing page on back top button click
+ */
+document.querySelectorAll('.top-btn').forEach(button => {
+    const homeSection = document.querySelector("#home-section");
+    button.addEventListener('click', () => {
+        scrollTo(homeSection);
+    });
+});

@@ -68,3 +68,7 @@ window.addEventListener('scroll', () => {
         document.querySelector('.nav').classList.remove('nav-scrolled');
     }
 });
+
+// variables for mobile nav
+const hamIcon = document.querySelector('.hamburger-icon');
+const closeBtn = document.querySelector('.close-btn');

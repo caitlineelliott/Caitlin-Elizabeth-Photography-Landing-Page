@@ -254,3 +254,18 @@ a:hover {
     color: #6b8b8c;
     margin-top: 0;
 }
+
+/* testimonials section */
+#testimonials-section {
+    background: url("../imgs/floral-bg.jpeg") 30% 50%/cover;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-cards {
+    background: #779a9c;
+}
+
+.couple {
+    color: #e5e1c6;
+    font-family: "playfair display", serif;
+}

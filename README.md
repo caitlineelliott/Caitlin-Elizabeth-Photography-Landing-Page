@@ -3,6 +3,9 @@ A landing page created as part of Udacity's Front End Web Developer Nanodegree
 
 <img src="https://i.ibb.co/stM3WQz/Screen-Shot-2021-03-22-at-11-01-02-AM.png" alt="Caitlin Elizabeth Photography homepage screenshot">
 
+## Live View
+- A live view of the project can be found [here](https://caitlineelliott.github.io/Caitlin-Elizabeth-Photography-Landing-Page/).
+
 ## Languages
 - HTML
 - CSS

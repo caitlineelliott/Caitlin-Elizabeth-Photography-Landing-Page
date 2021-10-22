@@ -501,6 +501,10 @@ a:hover {
     }
 
     /* contact section */
+    .contact-container {
+        margin-top: -35px;
+    }
+    
     .contact-images-container {
         margin-bottom: 10px;
         margin-top: 50px;
@@ -512,6 +516,12 @@ a:hover {
 
     .contact-submit {
         margin-left: 0;
+        width: 20%;
+        height: 5vh;
+    }
+    
+    .contact-form {
+        margin-bottom: 0;
     }
 
     /* footer styles */

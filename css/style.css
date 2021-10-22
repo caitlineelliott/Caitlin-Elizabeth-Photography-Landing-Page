@@ -590,6 +590,10 @@ a:hover {
     }
 
     /* testimonials section */
+    #testimonials-section {
+        background: url(../imgs/floral-bg.jpeg) top center/100%;
+    }
+    
     .testimonials-cards {
         width: 60vw;
         height: 40vh;

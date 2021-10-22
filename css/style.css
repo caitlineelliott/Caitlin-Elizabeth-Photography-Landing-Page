@@ -539,12 +539,19 @@ a:hover {
         margin: 20px 0;
     }
     /* header section */
+    .header-container {
+        background-color: transparent; 
+    }
+    
     .header-title {
         font-size: 2vw;
+        color: #fefadc;
     }
 
     .header-blurb {
         width: 55%;
+                color: #fefadc;
+
     }
 
     .landing-btn {

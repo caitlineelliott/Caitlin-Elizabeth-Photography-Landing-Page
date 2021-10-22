@@ -175,6 +175,13 @@ a:hover {
 }
 
 /* header section */
+.header-container {
+    background-color: #fefadc;
+    width: 80%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
 .index-header {
     height: 75vh;
     background: url(../imgs/wedding-1.jpg) top/cover no-repeat;
@@ -184,13 +191,13 @@ a:hover {
 
 .header-title {
     font: 4vw "playfair display", serif;
-    color: #fefadc;
+    color: #7f534b;
     text-align: center;
 }
 
 .header-blurb {
     font-size: 0.9em;
-    color: #fefadc;
+    color: #7f534b;
     text-align: center;
     width: 70%;
     margin-left: auto;
@@ -201,7 +208,8 @@ a:hover {
     width: 55%;
 }
 
-/* about section */
+/* about 
+*/
 .about-title {
     font: 3em/0.5em "playfair display", serif;
     color: #7f534b;

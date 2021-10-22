@@ -34,11 +34,9 @@ window.addEventListener('scroll', () => {
             if (activeSection.top <= 50 && activeSection.bottom >= 50) {
                 navContainer.children[i].classList.add('nav-chevron');
                 navContainer.children[i].firstChild.classList.add('active-nav');
-                pageSections[i].firstElementChild.classList.add("section-title-active");
             } else {
                 navContainer.children[i].classList.remove('nav-chevron');
                 navContainer.children[i].firstChild.classList.remove('active-nav');
-                pageSections[i].firstElementChild.classList.remove("section-title-active");
             }
         }
     }, 555);
